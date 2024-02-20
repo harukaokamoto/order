@@ -22,7 +22,7 @@ def text_to_speech(text):
             "Content-Type": "application/json",
         },
         params={
-            "speaker": 58,
+            "speaker": 20,
         },
         json=audio_query,
     )
